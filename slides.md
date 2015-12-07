@@ -43,7 +43,7 @@ So a language is what specifies: "you write X and the computer does Y"
 * Often explicitly forbids some *anti-patterns*
 
 Note:
-- Anti-patterns are usage/programming patterns that are deemed bad practice 
+- Anti-patterns are usage/programming patterns that are deemed bad practice
 - Agent-oriented
 - Automata-based
 - Data-driven
@@ -235,8 +235,6 @@ foreach x in [0:X-1] {
 ![](swift-t-graph.png)
 </div>
 
-<small>Source: http://swift-lang.org/Swift-T/</small>
-
 Note:
 - blue dots are tasks that are spawned
 - full arrows represent data flow
@@ -284,4 +282,23 @@ Note:
 
 ## Conclusion
 
-TODO
+* New languages and paradigms can provide big benefits
+    * Easier development
+    * Easier-to-maintain code
+    * Utilize new types of hardware
+* They need to overcome some significant challenges
+    * Large existing codebase/ecosystem
+    * Raw speed
+* Nothing can replace C/C++/Fortran right now
+    * Rust looks promising
+
+
+
+## Sources
+
+* Quote on slide 3: [Wikipedia: Programming language](https://en.wikipedia.org/wiki/Programming_language)
+* Quote on slide 4, 5: [Wikipedia: Programming paradigm](https://en.wikipedia.org/wiki/Programming_paradigm)
+* Sample code on slide 10: [rust-lang.org](https://www.rust-lang.org/)
+* Sample code on slide 11: [GitHub: bsteinb/rsmpi](https://github.com/bsteinb/rsmpi)
+* Image and sample code on slide 13: [swift-lang.org/Swift-T](http://swift-lang.org/Swift-T/)
+* Sample code on slide 15: [TI Wiki: OpenMP Accelerator Model 0.3.3](http://processors.wiki.ti.com/index.php/OpenMP_Accelerator_Model_0.3.3)
